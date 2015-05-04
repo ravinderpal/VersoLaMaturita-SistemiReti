@@ -1,8 +1,9 @@
 # Summary
 
 * [Introduzione](README.md)
-* [IDS](ids.md)
-* [VLAN](vlan.md)
 * [Crittografia](crittografia.md)
+* [VLAN](vlan.md)
 * [Attacchi Informatici](attacchi.md)
+* [IDS e IPS](ids_ips.md)
+* [Honeypot](honeypot.md)
 
