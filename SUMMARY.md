@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduzione](README.md)
-* [Reti Wi-Fi](WIFI.md)
+* [Reti Wi-Fi](wifi.md)
 * [Crittografia](crittografia.md)
 * [VLAN](vlan.md)
 * [Attacchi Informatici](attacchi.md)
