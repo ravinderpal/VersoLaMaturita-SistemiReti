@@ -10,6 +10,6 @@
 * [Attacchi Informatici](attacchi.md)
 * [IDS e IPS](ids_ips.md)
 * [Honeypot](honeypot.md)
-* [---VPN](vpn.md)
+* [VPN](vpn.md)
 * [Firewall](firewalls.md)
 
