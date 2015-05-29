@@ -54,3 +54,24 @@ I protocolli che utilizzano questa filosofia includono:
 * L2TPv3 (Layer 2 Tunnelling Protocol version 3). Le Trusted VPNs non usano un “Tunneling” crittografico e invece contano sulla sicurezza di una singola rete di provider per proteggere il traffico. In un certo senso, questa è un’elaborazione di una rete tradizionale.
 Multi Protocol Label Switching (MPLS) è spesso usato per costruire una Trusted VPN.
 
+### LibreSwan
+
+LibreSwan è un fork di OpenSwan realizzato per poterne continuare lo sviluppo. Il software offre un'implementazione completa di __IPSec__ per il kernel __Linux__. IPSec permette di utilizzare crittografia asimmetrica a _livello 3_ del modello __OSI__.
+
+__IPSec:__
+
+- opera in _tunnel mode_ o _transport mode_:
+    - _tunnel mode_ crittografa un'intero pacchetto
+    - _transport mode_ crittografa solo il payload
+- usa SHA1 e SHA2 per controlli d'integrità
+- usa AES e 3-DES per crittografia
+
+### L2TP
+
+- utilizza UDP
+
+Fornisce quattro differenti modelli di tunnelling, tra cui:
+
+- voluntary tunnel
+- compulsory tunnel: incoming dial o remote dial
+- multihop connection
