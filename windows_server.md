@@ -15,8 +15,6 @@ Offre le più comuni funzionalità normalmente richieste da un sistema server, t
 
 ## Licenze
 
-Microsoft Windows Server è conosciuto come un __overpriced piece of shit__ che nell'antica lingua inglese significa __sovrapprezzato pezzo di merda__ perchè richiede una quantità enorme di soldi per essere utilizzato ma soprattutto perchè __Microsoft si impegna per rendere più complicato possibile sapere quanti soldi ci vogliono per usarlo__.
-
 Oltre alla licenza di __ogni singolo desktop__ e a quella del sistema operativo di __ogni singolo server__, per ogni applicativo sono richieste licenze aggiuntive chiamate __Client Access License__ che sono di vario tipo, tra cui:
 
 - __per utente__: una CAL di questo tipo fornisce accesso a un singolo utente da ogni dispositvo
