@@ -2,7 +2,7 @@
 
 Il protocollo __TLS__ consente alle applicazioni _client/server_ di comunicare attraverso una rete in modo tale da prevenire il __tampering (manomissione)__ dei dati, la _falsificazione_ e l'_intercettazione_. È un protocollo standard definito nella __RFC 5246__, sviluppata sulla base del precedente protocollo __SSL__ da Netscape Communications.
 
-Viene applicato principalmente nel 
+Viene applicato principalmente nel protocollo HTTPS dove:
 
 - solo il _server_ si autentica al _client_: il client rimane invece anonimo (per quanto riguarda TLS).
 - il _server_ viene autenticato confrontando il suo certificato con una __Certificate Authority__.
