@@ -104,15 +104,16 @@ Esempio:
 
 ## DoS
 
-__Denial of service__ (_negazione del servizio_, abbreviato in __DoS__) nel campo della sicurezza informatica indica un malfunzionamento dovuto ad un attacco informatico in cui si esauriscono deliberatamente le risorse di un sistema informatico che fornisce un servizio ai client, ad esempio un sito web su un web server, fino a renderlo non più in grado di erogare il servizio ai client richiedenti
-
-### Amplification attack
-
-è una variante di __DoS__ che sfrutta pacchetti malformati o richieste particolari per far si che la vittima produca del traffico a scopo di causare __DoS__.
+__Denial of service__ (_negazione del servizio_, abbreviato in __DoS__) nel campo della sicurezza informatica indica un malfunzionamento dovuto ad un attacco informatico in cui si esauriscono deliberatamente le risorse di un sistema informatico che fornisce un servizio ai client, ad esempio un sito web su un web server, fino a renderlo non più in grado di erogare il servizio ai client richiedenti.
 
 I pacchetti dannosi (specialmente se predisposti con un indirizzo IP sorgente __falsificato__ rispetto all'originale) procureranno al computer _"vulnerabile"_ una situazione temporanea di __Denial of service__, tuttavia, poiché le connessioni che sono normalmente disponibili sono lente _per tutti_ (per soggetti ben intenzionati così come per soggetti malintenzionati), questo tipo di attacco diventa impraticabile, nel senso che non dà il risultato atteso (i.e. la congestione del server).
 
 __Un esempio__ potrebbe essere il seguente: l'attaccante, identificato dal nome STE, invia una serie di richieste alla sua vittima, identificata col nome CRI: la macchina server, sulla quale vengono eseguiti dei servizi, non sarà in grado di gestire tutte le richieste e i servizi stessi andranno in crash, risultando prima molto rallentati e poi, successivamente, inaccessibili. In questa maniera, un utente qualunque (identificato dal nome UTENTE) non sarà in grado di accedere ai servizi, ricevendo un errore di richiesta scaduta o timeout.
+
+### Amplification attack (Smurf attack)
+
+è una variante di __DoS__ che sfrutta pacchetti malformati o richieste particolari per far si che la vittima produca del traffico a scopo di causare __DoS__.
+
 
 ### Syn Flooding
 
