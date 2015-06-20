@@ -15,7 +15,7 @@ Da sapere per ogni attacco:
 - NAT
 - Sniffing/Snooping
 - Spoofing
-- Smurfing(tipo di DDoS)
+- Smurfing (tipo di DDoS)
 
 ## Obiettivi degli attaccanti
 
