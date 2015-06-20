@@ -7,16 +7,18 @@ Possono essere sistemi reali, dei sistemi emulati oppure anche interi reti.
 Il posizionamento delle honeypot può essere più interno a maggiore efficacia e rischio oppure più esterno, separato dalla rete reale a scopo di ridurre i rischi.
 
 ### Honeypot a bassa interazione
+Gli honeypot a bassa interazione sono solitamente programmi che emulano sistemi operativi e servizi.
+Questi honeypot sono più semplici da installare e più sicuri, ma riescono a catturare poche
+informazioni. 
 
-Semplice da installare e sicuri, ma riescono a catturare poche informazioni.
-
-__Esempi__: honeyd
+__Esempio__: _honeyd_
 
 ### Honeypot ad alta interazione
 
-Complessi da installare, non emulano nulla: sono dei veri sistemi. Ad alto rischio ma ad alto guadagno in caso di attacco e raccolta dati.
+Gli honeypot ad alta interazione invece non emulano nulla: sono veri computer, applicazioni o servizi. Questi honeypot sono molto più complessi e comportano maggiori rischi, ma
+riescono a catturare maggiori informazioni.
 
-__Esempi__: honeynet
+__Esempio__: _honeynet_
 
 ### Alternative
 
