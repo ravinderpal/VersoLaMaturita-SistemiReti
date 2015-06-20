@@ -1,12 +1,12 @@
 # IDS: Intrusion Detection System
 
-Nella sicurezza informatica l'Intrusion Detection System o IDS è un dispositivo software o hardware (o a volte la combinazione di entrambi utilizzato per identificare accessi non autorizzati ai computer o alle reti locali. Le intrusioni rilevate possono essere quelle prodotte da cracker esperti, da tool automatici o da utenti
+Nella sicurezza informatica l'Intrusion Detection System o IDS è un dispositivo software o hardware (o a volte la combinazione di entrambi) utilizzato per identificare accessi non autorizzati ai computer o alle reti locali. Le intrusioni rilevate possono essere quelle prodotte da cracker esperti, da tool automatici o da utenti
 inesperti che utilizzano programmi semiautomatici.
 
 __Esempio di IDS:__ Snort
 
-- è basato su delle regole conservate in database
-- analizza i pacchetti confrontandoli con le regole
+- è basato su delle regole conservate in database.
+- analizza i pacchetti confrontandoli con le regole.
 - in caso le regole non sono rispettate viene generato un __alert__ (__allarme__) e i dettagli vengono scritti nei log.
 
 Un IDS è composto da quattro componenti:
