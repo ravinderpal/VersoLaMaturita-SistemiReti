@@ -2,15 +2,13 @@
 
 Un honeypot è un sistema o componente di una rete o di una macchina che appare come importante dal punto di vista dell'attaccante, ma che viene usato come esca a fine di protezione dagli attacchi successivi.
 
-Possono essere sistemi reali con logger vari e sistemi di allarme oppure dei sistemi emulati. Possono anche essere interi reti
-
-Possono avere applicazioni "stub" e "mock" che imitano reali sistemi di gestione mail ad esempio
+Possono essere sistemi reali, dei sistemi emulati oppure anche interi reti.
 
 Il posizionamento delle honeypot può essere più interno a maggiore efficacia e rischio oppure più esterno, separato dalla rete reale a scopo di ridurre i rischi.
 
 ### Honeypot a bassa interazione
 
-Semplice da installare e sicuri, ma riescono a catturare poche informazioni
+Semplice da installare e sicuri, ma riescono a catturare poche informazioni.
 
 __Esempi__: honeyd
 
