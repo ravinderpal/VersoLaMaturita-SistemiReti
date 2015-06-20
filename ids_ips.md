@@ -9,6 +9,14 @@ __Esempio di IDS:__ Snort
 - analizza i pacchetti confrontandoli con le regole
 - in caso le regole non sono rispettate viene generato un __alert__ (__allarme__) e i dettagli vengono scritti nei log.
 
+Un IDS è composto da quattro componenti:
+- uno o più _sensori_ utilizzati per ricevere le informazioni dalla rete o dai computer
+- una _console_ utilizzata per monitorare lo stato della rete e dei computer
+- un _motore_ che analizza i dati prelevati dai sensori e provvede a individuare eventuali falle nella
+sicurezza informatica.
+- un _database_ cui si appoggia il motore di analisi e dove sono memorizzate una serie di regole
+utilizzate per identificare violazioni della sicurezza
+
 ## Cosa fa e cosa non fa
 
 - Non modifica e non blocca i pacchetti
