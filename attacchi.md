@@ -114,6 +114,7 @@ __Un esempio__ potrebbe essere il seguente: l'attaccante, identificato dal nome 
 
 è una variante di __DoS__ che sfrutta pacchetti malformati o richieste particolari per far si che la vittima produca del traffico a scopo di causare __DoS__.
 
+L'amplification attack consiste nel generare una serie di pacchetti con __IP sorgente modificato__ per corrispondere a quello della vittima, successivamente __inviarli in broadcast__ al __massimo numero di computer possibile__. Questi dispositivi _risponderanno alla vittima tutti insieme_, occupandone l'intera banda e possibilmente il tempo di CPU.
 
 ### Syn Flooding
 
