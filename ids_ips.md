@@ -10,50 +10,27 @@ __Esempio di IDS:__ Snort
 - in caso le regole non sono rispettate viene generato un __alert__ (__allarme__) e i dettagli vengono scritti nei log.
 
 Un IDS è composto da quattro componenti:
-- uno o più _sensori_ utilizzati per ricevere le informazioni dalla rete o dai computer
-- una _console_ utilizzata per monitorare lo stato della rete e dei computer
+- uno o più _sensori_ utilizzati per ricevere le informazioni dalla rete o dai computer.
+- una _console_ utilizzata per monitorare lo stato della rete e dei computer.
 - un _motore_ che analizza i dati prelevati dai sensori e provvede a individuare eventuali falle nella
 sicurezza informatica.
-- un _database_ cui si appoggia il motore di analisi e dove sono memorizzate una serie di regole
-utilizzate per identificare violazioni della sicurezza
+- un _database_ cui si appoggia il motore di analisi e dove sono memorizzate una serie di regole utilizzate per identificare violazioni della sicurezza.
 
 ## Cosa fa e cosa non fa
-
 - Non modifica e non blocca i pacchetti
 - Non è un firewall, non svolge difesa attiva
 - Non cerca di bloccare intrusioni, __ma le rileva quando si verificano__
 
 # IPS: Intrusion Prevention System
 
-In informatica gli __Intrusion prevention system__ sono dei componenti sviluppati per incrementare
-la sicurezza informatica di un sistema informatico. Sono stati sviluppati per impedire ad un
-programma non autorizzato di entrare in esecuzione. La tecnologia "Intrusion prevention" spesso
-viene considerata come un'estensione della tecnologia intrusion detection (IDS) sebbene sia più simile
-ad una lista di controllo degli accessi di un firewall.
+In informatica gli __Intrusion prevention system__ sono dei componenti sviluppati per incrementare la sicurezza informatica di un sistema informatico. Sono stati sviluppati per impedire ad un programma non autorizzato di entrare in esecuzione. La tecnologia _Intrusion prevention_ spesso viene considerata come un'estensione della tecnologia IDS sebbene sia più simile ad una lista di controllo degli accessi di un firewall.
 
-L'__IPS__ __NON__ è un firewall, poichè un firewall lavora su IP e Porte, mentre un __IPS__ lavora su __programmi__ e __utenti__.
-
-# Intrusion examples
-
-- remote root compromise
-- web server defacement
-- guessing / cracking passwords
-- copying / viewing sensitive data(bases)
-- running a packet sniffer
-- distributing pirate software
-- using an unsecured modem to access net (?????)
-- impersonating a user to reset password
-- using an unattended workstation
-- post-it with password sticked to a monitor
+L'__IPS__ __NON__ è un firewall, poiché un firewall lavora su IP e Porte, mentre un __IPS__ lavora su __programmi__ e __utenti__.
 
 ## Insider Attacks
+Per Insider Attack si intendono gli attacchi provenienti dall'interno della rete che non possono essere bloccati dagli IDS. Sono quindi più difficili da identificare e prevenire.
+Un semplice esempio può essere un dipendente malintenzionato che, dopo essere stato licenziato, decide di vendicarsi con la compagnia manomettendo il sistema o rubando dati sensibile per poi venderli alla concorrenza.
 
-- most difficult to prevent and detect
-- employees have access and system knowledge
-- may be motivated by revenge or entitlement
-    - after employee termination
-    - taking data to competitor(s)
-- To prevent/detect, the system needs __log monitoring__, __strong autentication__, __ability to block access__ and __backups/data mirroring__
 
 # Host-Based IDS
 
