@@ -1,6 +1,9 @@
 # IDS: Intrusion Detection System
 
-__Esempio:__ Snort
+Nella sicurezza informatica l'Intrusion Detection System o IDS è un dispositivo software o hardware (o a volte la combinazione di entrambi utilizzato per identificare accessi non autorizzati ai computer o alle reti locali. Le intrusioni rilevate possono essere quelle prodotte da cracker esperti, da tool automatici o da utenti
+inesperti che utilizzano programmi semiautomatici.
+
+__Esempio di IDS:__ Snort
 
 - è basato su delle regole conservate in database
 - analizza i pacchetti confrontandoli con le regole
@@ -14,7 +17,11 @@ __Esempio:__ Snort
 
 # IPS: Intrusion Prevention System
 
-A differenza di un __IDS__, un __IPS__ è anche in grado di intervenire. Viene spesso considerato un'estensione dell'__IDS__.
+In informatica gli __Intrusion prevention system__ sono dei componenti sviluppati per incrementare
+la sicurezza informatica di un sistema informatico. Sono stati sviluppati per impedire ad un
+programma non autorizzato di entrare in esecuzione. La tecnologia "Intrusion prevention" spesso
+viene considerata come un'estensione della tecnologia intrusion detection (IDS) sebbene sia più simile
+ad una lista di controllo degli accessi di un firewall.
 
 L'__IPS__ __NON__ è un firewall, poichè un firewall lavora su IP e Porte, mentre un __IPS__ lavora su __programmi__ e __utenti__.
 
