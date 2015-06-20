@@ -2,9 +2,9 @@
 
 Una prima definizione chiusa di firewall è la seguente: Apparato di rete hardware o software di ingresso-uscita bidirezionale che, opportunamente configurato o settato e agendo in maniera centralizzata, filtra tutti i pacchetti entranti ed uscenti, da e verso una rete o un computer, secondo regole prestabilite che contribuiscono alla sicurezza della stessa.
 
-Un firewall può essere realizzato con un semplice computer (con almeno due schede di rete, una per l'input l'altra per l'output, e software apposito), può essere una funzionalità logica (software) inclusa in un router oppure può essere implementato su un apparato hardware dedicato. Esistono inoltre i cosiddetti "firewall personali", che sono programmi installati sui normali calcolatori client, che filtrano solamente i pacchetti che entrano ed escono da quel calcolatore, utilizzando in tal caso solo una scheda di rete.
+Un __firewall può essere__ realizzato con __un semplice computer__ (con almeno due schede di rete, una per l'input l'altra per l'output, e software apposito), può essere una funzionalità logica (__software__) inclusa __in un router__ __oppure__ può essere implementato su un __apparato hardware dedicato__. Esistono inoltre i cosiddetti firewall personali, che sono programmi installati sui normali calcolatori client, che filtrano solamente i pacchetti che entrano ed escono da quel calcolatore, utilizzando in tal caso solo una scheda di rete.
 
-La funzionalità principale in sostanza è quella di creare un filtro sulle connessioni entranti ed uscenti, innalzando il livello di sicurezza della rete e permettere sia agli utenti interni che a quelli esterni di operare nel massimo della sicurezza. Il firewall infatti agisce sui pacchetti in transito da e per la zona interna potendo eseguire su di essi operazioni di:
+La __funzionalità principale__ in sostanza __è quella di creare un filtro sulle connessioni entranti ed uscenti__, innalzando il livello di sicurezza della rete e permettere sia agli utenti interni che a quelli esterni di operare nel massimo della sicurezza. Il firewall infatti agisce sui pacchetti in transito da e per la zona interna potendo eseguire su di essi operazioni di:
 
 * controllo;
 * modifica;
@@ -15,11 +15,11 @@ La funzionalità principale in sostanza è quella di creare un filtro sulle conn
 
 Tipologie di firewall, in ordine crescente di complessità:
 
-* __packet filter__ è il più semplice e si limita a valutare gli header di ciascun pacchetto, decidendo quali far passare e quali no sulla base delle regole configurate. Ciascun pacchetto viene valutato solamente sulla base delle regole configurate, e per questo un firewall di questo tipo è detto anche stateless. Alcuni packet filter, analizzando i flag dell'header TCP, sono in grado di discriminare un pacchetto appartenente ad una "connessione TCP stabilita (established)" rispetto a quelli che iniziano una nuova connessione, ma non sono in grado di riconoscere un pacchetto malevolo che finga di appartenere ad una connessione TCP stabilita. Molti router posseggono una funzione di packet filter.
-* __stateful inspection__ tiene traccia di alcune relazioni tra i pacchetti che lo attraversano, ad esempio ricostruisce lo stato delle connessioni TCP.
+* __packet filter__ è il più semplice e si limita a valutare gli header di ciascun pacchetto, decidendo quali far passare e quali no sulla base delle regole configurate. Ciascun pacchetto viene valutato solamente sulla base delle regole configurate, e per questo un firewall di questo tipo è detto anche _stateless_.
+* __stateful inspection__ tiene traccia di alcune relazioni tra i pacchetti che lo attraversano. Ad esempio ricostruisce lo stato delle connessioni TCP.
 * __deep packet inspection__ effettuano controlli fino al livello 7 della pila ISO/OSI, ovvero valutano anche il contenuto applicativo dei pacchetti, ad esempio riconoscendo e bloccando i dati appartenenti a virus o worm noti in una sessione HTTP o SMTP.
 * __application layer firewall__ sono apparati che intercettano le connessioni a livello applicativo. __A questa categoria appartengono i proxy__. In tali casi, la configurazione della rete privata non consente connessioni dirette verso l'esterno, ma il proxy è connesso sia alla rete privata che alla rete pubblica, e permette alcune connessioni in modo selettivo, e solo per i protocolli che supporta.
-La sintassi della configurazione di un firewall in molti casi è basata su un meccanismo di lista di controllo degli accessi (ACL), che possono essere statiche (quindi modificabili solo tramite configurazione esplicita da parte dell'amministratore di sistema) o dinamiche (cioè che possono variare in base allo stato interno del sistema, come ad esempio nel Port knocking).
+La sintassi della configurazione di un firewall in molti casi è basata su un meccanismo di lista di controllo degli accessi (ACL), che possono essere statiche (quindi modificabili solo tramite configurazione esplicita da parte dell'amministratore di sistema) o dinamiche (cioè che possono variare in base allo stato interno del sistema).
 
 ## Altre funzionalità associate
 
