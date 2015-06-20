@@ -13,9 +13,9 @@ Da sapere per ogni attacco:
 - Firewall
 - DMZ
 - NAT
-- Spoofing
+- Sniffing/spoofing
 - Snooping
-- Smurfing
+- Smurfing(tipo di DDoS)
 
 ## Obiettivi degli attaccanti
 
