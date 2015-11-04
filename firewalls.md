@@ -1,5 +1,5 @@
 # Firewall
-
+![Firewall](Images/Firewall.png)
 Una prima definizione chiusa di firewall è la seguente: Apparato di rete hardware o software di ingresso-uscita bidirezionale che, opportunamente configurato o settato e agendo in maniera centralizzata, filtra tutti i pacchetti entranti ed uscenti, da e verso una rete o un computer, secondo regole prestabilite che contribuiscono alla sicurezza della stessa.
 
 Un __firewall può essere__ realizzato con __un semplice computer__ (con almeno due schede di rete, una per l'input l'altra per l'output, e software apposito), può essere una funzionalità logica (__software__) inclusa __in un router__ __oppure__ può essere implementato su un __apparato hardware dedicato__. Esistono inoltre i cosiddetti firewall personali, che sono programmi installati sui normali calcolatori client, che filtrano solamente i pacchetti che entrano ed escono da quel calcolatore, utilizzando in tal caso solo una scheda di rete.
