@@ -6,26 +6,23 @@ Possono essere sistemi reali, dei sistemi emulati oppure anche interi reti.
 
 Il posizionamento delle honeypot può essere più interno a maggiore efficacia e rischio oppure più esterno, separato dalla rete reale a scopo di ridurre i rischi.
 
-### Honeypot a bassa interazione
-Gli honeypot a bassa interazione sono solitamente programmi che emulano sistemi operativi e servizi.
-Questi honeypot sono più semplici da installare e più sicuri, ma riescono a catturare poche
-informazioni. 
+## Honeypot a bassa interazione
 
-__Esempio__: _honeyd_
+Gli honeypot a bassa interazione sono solitamente programmi che emulano sistemi operativi e servizi. Questi honeypot sono più semplici da installare e più sicuri, ma riescono a catturare poche informazioni.
 
-### Honeypot ad alta interazione
+**Esempio**: _honeyd_
 
-Gli honeypot ad alta interazione invece non emulano nulla: sono veri computer, applicazioni o servizi. Questi honeypot sono molto più complessi e comportano maggiori rischi, ma
-riescono a catturare maggiori informazioni.
+## Honeypot ad alta interazione
 
-__Esempio__: _honeynet_
+Gli honeypot ad alta interazione invece non emulano nulla: sono veri computer, applicazioni o servizi. Questi honeypot sono molto più complessi e comportano maggiori rischi, ma riescono a catturare maggiori informazioni.
 
-### Alternative
+**Esempio**: _honeynet_
+
+## Alternative
 
 Siti web e/o chat room vulnerabili possono essere usate a scopo di identificare criminali.
 
-### Spammer e Honeypot
+## Spammer e Honeypot
 
 Esistono delle honeypot che agiscono da risorse facilmente abusabili per spam a scopo di scoprire e limitare l'attività degli spammer
-
 
